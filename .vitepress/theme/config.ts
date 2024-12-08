@@ -20,7 +20,7 @@ interface SocialLink {
 
 const themeConfig = {
   // https://vitepress.dev/reference/site-config
-  base: '',
+  base: '/vitepress-blog/',
   lang: 'zh-TW',
   logo: '/avatar.png',
   favicon: '/favicon-32x32.png',
