@@ -35,23 +35,11 @@ const themeConfig = {
   mdLineNums: true,  // line numbers for code block
   // https://vitepress.dev/reference/default-theme-config
   nav: [
-    { text: 'Blog', link: '/nav/blog' },
-    { text: 'cat', link: '/nav/category' },
-    {
-      text: 'Notes',
-      items: [
-        { text: 'Blockchain', link: '/notes/blockchain/' },
-        { text: 'Frontend', link: '/notes/frontend/' },
-        { text: 'Backend', link: '/notes/backend/' },
-        { text: 'Database', link: '/notes/database/' },
-        { text: 'DevOps', link: '/notes/devops/' }
-      ]
-    },
     { text: '🏠 Home', link: '/' },
-    // { text: '📚 Archives', link: '/archives' },
-    { text: '📁 Category', link: '/nav/category' },
-    { text: `🔖 Tags`, link: '/nav/tags' },
-    // { text: '🙆 About', link: '/about' }
+    { text: '📚 Archives', link: '/archives' },
+    { text: '📁 Category', link: '/category' },
+    { text: `🔖 Tags`, link: '/tags' },
+    { text: '🙆 About', link: '/about' }
   ],
   sidebar: [],
   aside: false,
