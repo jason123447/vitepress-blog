@@ -26,7 +26,7 @@ const themeConfig = {
   favicon: '/favicon-32x32.png',
   title: 'My Personal Site',
   description: 'Welcome to my personal site',
-  hostname: 'https://example.com',
+  hostname: 'https://jason123447.github.io/',
   lastUpdated: true,
   cacheDir: './node_modules/vitepress_cache',
   appearance: <Appearance>'dark',
@@ -38,14 +38,14 @@ const themeConfig = {
     { text: 'Blog', link: '/nav/blog' },
     { text: 'cat', link: '/nav/category' },
     {
-        text: 'Notes',
-        items: [
-            { text: 'Blockchain', link: '/notes/blockchain/' },
-            { text: 'Frontend', link: '/notes/frontend/' },
-            { text: 'Backend', link: '/notes/backend/' },
-            { text: 'Database', link: '/notes/database/' },
-            { text: 'DevOps', link: '/notes/devops/' }
-        ]
+      text: 'Notes',
+      items: [
+        { text: 'Blockchain', link: '/notes/blockchain/' },
+        { text: 'Frontend', link: '/notes/frontend/' },
+        { text: 'Backend', link: '/notes/backend/' },
+        { text: 'Database', link: '/notes/database/' },
+        { text: 'DevOps', link: '/notes/devops/' }
+      ]
     },
     { text: '🏠 Home', link: '/' },
     // { text: '📚 Archives', link: '/archives' },
@@ -59,10 +59,9 @@ const themeConfig = {
     { icon: 'github', link: 'https://github.com/jason123447' },
   ],
   footer: {
-    // message: `Powered by <a target='_blank' href='https://vitepress.dev'>VitePress</a> 
-    //   Theme by <a target='_blank' href='https://github.com/laplacetw/vitepress-theme-trigger'>Trigger</a>`,
-    // copyright: `<a target='_blank' href='https://creativecommons.org/licenses/by/4.0/'>
-    //   CC BY 4.0</a> | © Trigger ${new Date().getFullYear()}`
+    message: `Powered by <a target='_blank' href='https://vitepress.dev'>VitePress</a>`,
+    // copyright: `Copyright | <a target='_blank' href='https://github.com/jason123447'>©Lenny ${new Date().getFullYear()}
+    //   </a> `
   },
   // custom theme config
   postsPerPage: 5,
