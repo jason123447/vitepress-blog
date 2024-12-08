@@ -26,7 +26,7 @@ const themeConfig = {
   favicon: '/favicon-32x32.png',
   title: 'My Personal Site',
   description: 'Welcome to my personal site',
-  hostname: 'https://jason123447.github.io/',
+  hostname: 'https://jason123447.github.io/vitepress-blog/',
   lastUpdated: true,
   cacheDir: './node_modules/vitepress_cache',
   appearance: <Appearance>'dark',

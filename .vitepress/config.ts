@@ -11,8 +11,7 @@ export default defineConfig({
     ['link', { rel: 'icon', href: root + themeConfig.favicon }],
     ['link', { rel: 'app-touch-icon', href: root + "/app-touch-icon.png" }],
     ['link', { rel: 'icon', size: "32x32", href: root + "/favicon-32x32.png" }],
-    ['link', { rel: 'icon', size: "16x16", href: root + "/favicon-16x16.png" }],
-    ['link', { rel: 'manifest', href: root + "/site.webmanifest" }],
+    ['link', { rel: 'icon', size: "16x16", href: root + "/favicon-16x16.png" }]
   ],
   base: themeConfig.base,
   lang: themeConfig.lang,
